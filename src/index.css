@@ -1,0 +1,12 @@
+.listWrapeer{
+    display: flex;
+}
+.listWrapeer2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.customImg{
+    width: 100px;
+    height: 100px;
+}
