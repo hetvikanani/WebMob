@@ -4,7 +4,7 @@ import SubService from "../SubService";
 const List = ({ name, nestedService, flag }) => {
   return (
     <>
-      <h3>{name}</h3>
+      <h2 style={{ paddingLeft: "2rem" }}>{name}</h2>
       {nestedService.map((s) => (
         <SubService flag={flag} service={s} />
       ))}

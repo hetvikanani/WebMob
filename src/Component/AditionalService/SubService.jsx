@@ -9,7 +9,7 @@ const SubService = ({ service, flag }) => {
             <div className="customImg">
               <img className="customImg" src={service.image} />
             </div>
-            <div>
+            <div className="listContent">
               <div className="listWrapeer2">
                 <h3>{service.name}</h3>
                 <p>Price : {service.price}</p>

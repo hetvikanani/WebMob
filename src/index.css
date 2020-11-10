@@ -1,12 +1,38 @@
 .listWrapeer{
     display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    background-color: white;
+    margin: 1rem;
+    box-shadow: 0 4px 10px 0 #6c757d6e, 0 0 10px 0 #f8f8f9;
+    margin-top: 1.5rem !important;
+    align-items: center;
 }
 .listWrapeer2{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
+.listContent{
+    margin-left: 1rem;
+}
 .customImg{
     width: 100px;
     height: 100px;
+}
+.costList{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card{
+    padding: 1rem ;
+    border-radius: 5px;
+    background-color: white;
+    margin: 1rem;
+    box-shadow: 0 4px 10px 0 #6c757d6e, 0 0 10px 0 #f8f8f9;
+    margin-top: 1.5rem !important;
+
 }
